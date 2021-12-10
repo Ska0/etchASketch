@@ -1,0 +1,42 @@
+* {
+   box-sizing: border-box;
+}
+
+body {
+   height: 100vh;
+   background-color: #2e2e3b;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0;
+   padding: 0;
+}
+
+.wrapper {
+   width:max-content;
+   height:max-content;
+   background-color: #c01111be;
+   padding: 30px 120px;
+   border: 2px outset #835555;
+   outline: 2px  #914040 outset;
+   border-radius: 20px;
+}
+
+#screen {
+   width: 900px;
+   height: 650px;
+   display: flex;
+   flex-flow: column wrap;
+   overflow: hidden;
+   background-color:#2e2e3b;  
+   border: 1px inset #ce9797;
+   outline: 2px  #bd6b6b inset;
+   border-radius: 20px;
+}
+
+.box {
+   flex: 0 1 3.5%;      
+}
+
+
+
