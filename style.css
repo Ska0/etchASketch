@@ -16,10 +16,24 @@ body {
    width:max-content;
    height:max-content;
    background-color: #c01111be;
-   padding: 30px 120px;
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   padding: 30px 30px;
    border: 2px outset #835555;
    outline: 2px  #914040 outset;
    border-radius: 20px;
+   gap: 12px;
+}
+
+#btn {
+   width: 125px;
+   height: 125px;
+   border-radius: 22px;
+   background-color: #887e7e;
+   font-size: 20px;
+   font-weight: bold;
+   
 }
 
 #screen {
@@ -28,7 +42,7 @@ body {
    display: flex;
    flex-flow: column wrap;
    overflow: hidden;
-   background-color:#2e2e3b;  
+   background-color:#787880;  
    border: 1px inset #ce9797;
    outline: 2px  #bd6b6b inset;
    border-radius: 20px;
